@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+.stopwatch {
+	width: 450px;
+	margin: 0 auto;
+	background: #e6f8fa;
+	color: #2e80b3;
+	border-radius: 10px;
+	padding: 60px 20px;
+	text-align: center;
+	font-size: 28px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Секундомер */
+
+.counter {
+	text-align: center;
+	font-size: 42px;
+	line-height: 80px;
+	border: 1px solid #2e80b3;
+	height: 80px;
+	width: 120px;
+	margin-bottom: 40px;
+}
+
+.button {
+	font-size: 22px;
+	border: none;
+	background-color: #2e80b3;
+	color: white;
+	border-radius: 5px;
+	width: 112px;
+	height: 42px;
+	transition: .3s;
+}
+
+.button:hover {
+	background: #2763cf;
+	cursor: pointer;
+}
+
